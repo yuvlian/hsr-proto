@@ -7141,7 +7141,7 @@ message AvatarPathData {
 }
 
 message GetAvatarDataScRsp {
-	repeated APAMFCKFHLL JBFBEOLOHJN = 3; 
+	repeated KVP JBFBEOLOHJN = 3; 
 	repeated uint32 skin_list = 4; 
 	repeated CFMDKNCDDAL PILOAFIMCGK = 5; 
 	repeated AvatarPathData avatar_path_data_info_list = 6; 
@@ -7487,8 +7487,8 @@ message CLHIJOAKJCE {
 }
 
 message HKGJBAGOHFH {
-	repeated APAMFCKFHLL LKHLOHPHAOD = 4; 
-	repeated APAMFCKFHLL LEJEECMJIPD = 6; 
+	repeated KVP LKHLOHPHAOD = 4; 
+	repeated KVP LEJEECMJIPD = 6; 
 }
 
 message PCCGNFGFLNJ {
@@ -7641,7 +7641,7 @@ message IHEBJJKGBOH {
 }
 
 message GIIHHKDLOBA {
-	repeated APAMFCKFHLL LABIDBPBKPL = 1; 
+	repeated KVP LABIDBPBKPL = 1; 
 	IHEBJJKGBOH EELDJNDKKML = 11; 
 	uint32 DABECDOKHLL = 14; 
 }
@@ -9674,7 +9674,7 @@ message EOKKHLOIBIM {
 }
 
 message MBLJIEELMKN {
-	repeated APAMFCKFHLL OCIJDDBLGMH = 4; 
+	repeated KVP OCIJDDBLGMH = 4; 
 }
 
 enum LCOIIEGJAOK {
@@ -11740,7 +11740,7 @@ message Relic {
 	bool is_discarded = 2; 
 	uint32 dress_avatar_id = 3; 
 	bool is_protected = 4; 
-	repeated RelicAffix HGNPLIBNHHG = 5; 
+	repeated RelicAffix preview_sub_affix_list = 5; 
 	uint32 unique_id = 7; 
 	uint32 exp = 8; 
 	uint32 level = 9; 
@@ -11848,7 +11848,7 @@ message LMDPKOELKFL {
 	repeated uint32 relic_ids = 14; 
 }
 
-message APAMFCKFHLL {
+message KVP {
 	uint32 value = 2; 
 	uint32 key = 13; 
 }
@@ -12667,7 +12667,7 @@ message LNCAAKDIMBL {
 	uint32 ADGNNEOEAFO = 4; 
 	bool PLIEODDEEHG = 5; 
 	uint32 IFGMFCOGNJF = 6; 
-	repeated APAMFCKFHLL DBOBKAAGPJH = 8; 
+	repeated KVP DBOBKAAGPJH = 8; 
 	uint32 AOOLKNMJLNI = 13; 
 	bool FKLNFMAHKGD = 14; 
 	uint32 BIOFDPICHLC = 15; 
@@ -14113,7 +14113,7 @@ enum EILNMPEFGOM {
 }
 
 message OPEDNENFCIN {
-	repeated APAMFCKFHLL BIHMGJNKEOH = 2; 
+	repeated KVP BIHMGJNKEOH = 2; 
 	DILHPBMCOFK IPDDIKPHGPE = 3; 
 	uint32 ILKMDMAHPIL = 4; 
 	repeated uint32 HFADPMMFNCK = 9; 
@@ -18807,7 +18807,7 @@ message CGGPJFLLGID {
 
 message CGBPOHBACGE {
 	uint64 JBIDLKCBBCF = 3; 
-	repeated APAMFCKFHLL EIEOJFJAIBD = 5; 
+	repeated KVP EIEOJFJAIBD = 5; 
 	repeated CGGPJFLLGID FKLPCAPONIA = 6; 
 	repeated PEPEHIDAKKK avatar_list = 14; 
 }
@@ -18832,7 +18832,7 @@ message KLNNIAHJBCO {
 }
 
 message PCGMJHKDCOG {
-	repeated APAMFCKFHLL IHJJKABIEPC = 1; 
+	repeated KVP IHJJKABIEPC = 1; 
 	repeated CBNNMKNBLDI H_7e8b12bb = 2; 
 	repeated CBNNMKNBLDI KIDBGNPHGBI = 5; 
 	repeated uint32 OILPEBPLDBG = 8; 
@@ -18869,7 +18869,7 @@ message JIEKJDGEGDN {
 
 message HIDCLKLDHLE {
 	repeated OOMNNODJGPH NNIAKOLKDFP = 6; 
-	repeated APAMFCKFHLL CAOFMHOMMHF = 7; 
+	repeated KVP CAOFMHOMMHF = 7; 
 	JIEKJDGEGDN POLADDGLAEH = 8; 
 	repeated uint32 HHNNEGILEFB = 12; 
 }
@@ -18940,7 +18940,7 @@ message BKDANKLCAHC {
 
 message StartNodeBattleScRsp {
 	uint32 retcode = 2; 
-	repeated APAMFCKFHLL ENCINPIHHDF = 3; 
+	repeated KVP ENCINPIHHDF = 3; 
 	uint32 PGIEEGCGCDI = 10; 
 }
 
@@ -18963,13 +18963,13 @@ message FOMCONFODHH {
 }
 
 message JLCNOGIJGMH {
-	repeated APAMFCKFHLL HPCKMFMNOBG = 2; 
+	repeated KVP HPCKMFMNOBG = 2; 
 	uint64 JEAEFMHIIAC = 3; 
 	uint32 retcode = 5; 
 	ItemList reward = 6; 
 	ItemList DHPPLPJOMNB = 7; 
-	repeated APAMFCKFHLL IOFKDDFNDGC = 8; 
-	repeated APAMFCKFHLL IBLOFDAGDCE = 9; 
+	repeated KVP IOFKDDFNDGC = 8; 
+	repeated KVP IBLOFDAGDCE = 9; 
 	ItemList BPIOEKHMAIC = 11; 
 	JDGNMIDMACL GBJEALNCMJC = 15; 
 }
@@ -19003,12 +19003,12 @@ message UpgradeTeamSlotCsRsp {
 
 message OLFPLAAAFHI {
 	uint32 MNKCHCLGNOM = 1; 
-	repeated APAMFCKFHLL ENCINPIHHDF = 2; 
+	repeated KVP ENCINPIHHDF = 2; 
 }
 
 message ReplaceTeamCsRsp {
 	uint32 retcode = 10; 
-	repeated APAMFCKFHLL ENCINPIHHDF = 11; 
+	repeated KVP ENCINPIHHDF = 11; 
 }
 
 message GAIANGFBBPG {
@@ -19017,12 +19017,12 @@ message GAIANGFBBPG {
 }
 
 message NDMGIMOOFBL {
-	repeated APAMFCKFHLL HPCKMFMNOBG = 2; 
+	repeated KVP HPCKMFMNOBG = 2; 
 	uint32 retcode = 4; 
-	repeated APAMFCKFHLL IBLOFDAGDCE = 6; 
+	repeated KVP IBLOFDAGDCE = 6; 
 	ItemList reward = 11; 
 	bool ECBJLAKHOCF = 13; 
-	repeated APAMFCKFHLL IOFKDDFNDGC = 15; 
+	repeated KVP IOFKDDFNDGC = 15; 
 }
 
 message DMEPOENPEIF {
@@ -19031,10 +19031,10 @@ message DMEPOENPEIF {
 
 message NMEMDFOCMFO {
 	uint32 retcode = 7; 
-	repeated APAMFCKFHLL HPCKMFMNOBG = 12; 
-	repeated APAMFCKFHLL IOFKDDFNDGC = 13; 
+	repeated KVP HPCKMFMNOBG = 12; 
+	repeated KVP IOFKDDFNDGC = 13; 
 	uint32 PJODECIGFOI = 14; 
-	repeated APAMFCKFHLL IBLOFDAGDCE = 15; 
+	repeated KVP IBLOFDAGDCE = 15; 
 }
 
 message BIJEDLPINKH {
@@ -19056,11 +19056,11 @@ message HandlePendingEquipScRsp {
 }
 
 message DOAGEJLCHJE {
-	repeated APAMFCKFHLL COLOHMBFKIH = 8; 
+	repeated KVP COLOHMBFKIH = 8; 
 }
 
 message DressSpecialEquipScRsp {
-	repeated APAMFCKFHLL COLOHMBFKIH = 3; 
+	repeated KVP COLOHMBFKIH = 3; 
 	uint32 retcode = 12; 
 }
 
@@ -19104,7 +19104,7 @@ message KAILIIEEBJM {
 		uint32 OLAAFALFKIH = 4; 
 		uint32 DLILJLGKBEK = 3; 
 		uint32 FFFBADMIMLF = 10; 
-		APAMFCKFHLL DGBFGDIMKND = 1595; 
+		KVP DGBFGDIMKND = 1595; 
 		bool EIJHKECFBLA = 1811; 
 		JIEKJDGEGDN POLADDGLAEH = 862; 
 		uint32 NOAKIEIOKIB = 1300; 
@@ -19148,8 +19148,8 @@ message TakeContentScRsp {
 message OKABLGLBPOA {
 	repeated uint32 JAJDGPAKNLL = 2; 
 	uint32 EICEKDBENKM = 6; 
-	repeated APAMFCKFHLL ENCINPIHHDF = 9; 
-	repeated APAMFCKFHLL COLOHMBFKIH = 14; 
+	repeated KVP ENCINPIHHDF = 9; 
+	repeated KVP COLOHMBFKIH = 14; 
 }
 
 message BCIMOPDDKHH {
@@ -19158,10 +19158,10 @@ message BCIMOPDDKHH {
 }
 
 message StartDungeonScRsp {
-	repeated APAMFCKFHLL ENCINPIHHDF = 5; 
+	repeated KVP ENCINPIHHDF = 5; 
 	uint32 retcode = 9; 
 	repeated BCIMOPDDKHH KMMBNFIFALA = 12; 
-	repeated APAMFCKFHLL COLOHMBFKIH = 13; 
+	repeated KVP COLOHMBFKIH = 13; 
 	uint32 EICEKDBENKM = 14; 
 }
 
@@ -19183,7 +19183,7 @@ message HGDEGLENMPM {
 
 message OCBPHIBFFAC {
 	uint32 FANDKFADKKM = 1; 
-	repeated APAMFCKFHLL CJDOEPKKJGC = 6; 
+	repeated KVP CJDOEPKKJGC = 6; 
 	uint32 LNGEAIJIODK = 9; 
 	uint32 uid = 15; 
 }
@@ -21070,10 +21070,10 @@ message JKEBEAKOHJJ {
 	uint32 JNAOKJKFLHL = 2; 
 	uint32 EECIJBLGLNG = 5; 
 	repeated KPCHPLEJCKC DBINCLPHEFN = 8; 
-	repeated APAMFCKFHLL BFCMLMLIHHM = 9; 
+	repeated KVP BFCMLMLIHHM = 9; 
 	repeated HDKJPKPEJFO NKHIIMHCLCD = 11; 
-	repeated APAMFCKFHLL GOBIPJPDBFG = 14; 
-	repeated APAMFCKFHLL KIOIBLGKFCJ = 15; 
+	repeated KVP GOBIPJPDBFG = 14; 
+	repeated KVP KIOIBLGKFCJ = 15; 
 }
 
 message MatchThreeV2GetDataScRsp {
@@ -21097,7 +21097,7 @@ message GJKAHBHLPPH {
 	repeated uint32 EEDLBJGGLKD = 4; 
 	uint32 GFBAHEODFNA = 5; 
 	uint32 HBONKLEOEEI = 6; 
-	repeated APAMFCKFHLL MONKDLNMMBK = 8; 
+	repeated KVP MONKDLNMMBK = 8; 
 	uint32 JGIFDFLDBPB = 10; 
 	uint32 EOHGLCJAMKN = 13; 
 	uint32 level_id = 15; 
@@ -23897,7 +23897,7 @@ message NAJFNKIEEDM {
 message HGNAHHFBMMN {
 	uint32 GJLDDMIIILF = 2; 
 	IDJALKEGPLI NDLIKNEKDLL = 3; 
-	repeated APAMFCKFHLL switch_list = 4; 
+	repeated KVP switch_list = 4; 
 	string FPPECOIAHEP = 6; 
 	uint32 ALJNIHNLNMA = 7; 
 	uint32 stage_id = 8; 
@@ -23910,7 +23910,7 @@ message HGNAHHFBMMN {
 }
 
 message IDJALKEGPLI {
-	repeated APAMFCKFHLL DCJDCPMKEPN = 13; 
+	repeated KVP DCJDCPMKEPN = 13; 
 	uint32 plane_id = 15; 
 }
 
@@ -24181,7 +24181,7 @@ message GNCJNHIOKDL {
 	oneof PGNIENCDODA {
 		uint32 ECHFGJHHGOG = 10; 
 		uint32 NDEDLLMEFBJ = 4; 
-		APAMFCKFHLL CJKEIMBCMEP = 9; 
+		KVP CJKEIMBCMEP = 9; 
 	}
 }
 
@@ -24291,7 +24291,7 @@ message GetPlanetFesDataScRsp {
 	BLDIHADJKJF OEIBHLMDJKA = 9; 
 	KCMJJLJCHHP NJFGGOOMGCD = 10; 
 	BAGAOALHAJI skill_info = 12; 
-	repeated APAMFCKFHLL custom_value_list = 13; 
+	repeated KVP custom_value_list = 13; 
 	NOLLHKIMDOC CCFGCCMEFCI = 15; 
 }
 
@@ -25319,7 +25319,7 @@ message PlayerSettingInfo {
 	bool HGPFFGKNPFB = 459; 
 	bool LNGHIJGFDKP = 562; 
 	JPGACKPLGCD CMFCOOEEECB = 639; 
-	repeated APAMFCKFHLL OKAHMFOINPM = 948; 
+	repeated KVP OKAHMFOINPM = 948; 
 	bool BBEEBBIDJHE = 1332; 
 }
 
@@ -25652,7 +25652,7 @@ message UpdatePlayerSetting {
 		bool LNGHIJGFDKP = 117; 
 		bool GOKFNGFFMOB = 816; 
 		JPGACKPLGCD CMFCOOEEECB = 568; 
-		APAMFCKFHLL EGLOIFDIDPK = 1757; 
+		KVP EGLOIFDIDPK = 1757; 
 	}
 }
 
@@ -28761,7 +28761,7 @@ message PPHLEBFJIGM {
 }
 
 message OMACAKFNAOA {
-	repeated APAMFCKFHLL IHFEBNBHDFM = 13; 
+	repeated KVP IHFEBNBHDFM = 13; 
 }
 
 message OECNJOAPCKO {
@@ -30159,7 +30159,7 @@ message AEBNHMHDMNP {
 }
 
 message EOLKILAIAKL {
-	repeated APAMFCKFHLL BJHHJDCGFPO = 4; 
+	repeated KVP BJHHJDCGFPO = 4; 
 	bool JKNPMIMBGML = 7; 
 }
 
@@ -30454,7 +30454,7 @@ message AJCFOLGANFC {
 	uint32 KMPCNDJHHAO = 7; 
 	uint32 DEDCHHNCHFM = 9; 
 	uint32 PGGDEHKKINP = 11; 
-	repeated APAMFCKFHLL IHFEBNBHDFM = 13; 
+	repeated KVP IHFEBNBHDFM = 13; 
 	uint32 EDOGNFCCGPF = 14; 
 	uint32 IKJLLFLCHNF = 15; 
 }
@@ -32965,13 +32965,13 @@ message PlayerSyncScNotify {
 	repeated WaitDelResource wait_del_resource_list = 2; 
 	repeated Equipment equipment_list = 3; 
 	MissionSync mission_sync = 5; 
-	repeated uint32 del_relic_list = 6; 
+	repeated uint32 del_equipment_list = 6; 
 	PlayerBasicInfo basic_info = 7; 
 	repeated Material material_list = 8; 
 	repeated Relic relic_list = 9; 
 	repeated Quest quest_list = 12; 
 	BasicModuleSync JHJNMOFMPMO = 13; 
-	repeated uint32 del_equipment_list = 14; 
+	repeated uint32 del_relic_list = 14; 
 	repeated NLLLAAEJOBP EPBGLFHEFJJ = 241; 
 	PFNHCOJOBKH OFFHOHGHNDH = 316; 
 	repeated Material NAJFMIIFIEC = 324; 
